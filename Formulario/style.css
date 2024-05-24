@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #ddd;
+    background-color: #222;
+}
+#section1 {
+    width: 80%; /* Ancho deseado */
+    margin: auto; /* Para centrar horizontalmente */
+    margin-top: 50px; /* Márgen arriba */
+    margin-bottom: 50px; /* Márgen abajo */
+    margin-right: 10%; /* Márgen derecha */
+    padding: 20px; /* Añadiendo relleno interno para un mejor aspecto */
+    background-color: #f0f0f0; /* Color de fondo */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+/* .formulario{ 
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 45px;
+ }   */
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-body .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.modal-body .col {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.modal-body .form-label {
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+.modal-body input[type="text"],
+.modal-body input[type="date"],
+.modal-body input[type="number"],
+.modal-body input[type="text"].form-control {
+    width: 440px; /*ancho horizontal floating*/
+    margin:auto;/*entre el span e input*/
+    border:none;
+    border: 1px solid transparent;/* de los input*/
+    box-shadow: 0px 0px 15px #0003;/*de los input*/
+    border-radius: 4px;/*de lo input*/
+    background-color: #f0f0f0;
+    
+}
+
+fieldset {
+    border-radius: 5px;
+    border: 1px solid #666;
+
+;}
+legend {
+    padding: 0 6px;
+     color:#0d6efd;
+    font-weight: bold;
+}
+.input-group.mb-3 {
+    display: flex;
+    flex-direction: column;
+    
+}
+.input-group.mb-3 .input-group-text,
+.input-group.mb-3 .form-control {
+    margin-bottom: auto; /* Espacio entre elementos */
+    width: 100%; /* Ajusta el ancho según lo necesites */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+    font-weight: bold;
+}
+.form-floating.mb-3 {
+    display: flex;
+    flex-direction: column;
+    color: #668;
+    background-color:#ccc;
+}
+.form-floating.mb-3 .input-group-text,
+.form-floating.mb-3 .form-control {
+    margin: auto; /* Espacio entre elementos */
+    width:100px; /* Ajusta el ancho según lo necesites */
+    box-sizing: border-box;
+    padding: 0px; /*  ancho vertical floating */
+    background-color:#ccc;
+}
+.form-label{
+    font-weight: bold;
+}
+                                                 
